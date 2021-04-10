@@ -1,0 +1,20 @@
+1. Introduction:
+    (1)task: Create a predictive model to forescast when a booking will be canceled. --> outcome of interest: `is_canceled`
+    (2)data: outcome and variables --> instinctively analyze [according to the real life and common sense]
+
+2. Exploratory Data Analysis and Feature Engineering:
+    (1)Basic: missing value, abnormal values(optional)
+    (2)Advanced: univariable analysis, Colinearity analysis, association study
+    (3)Visualization: Distribution, relationship
+    (4)Feature: One-hot, polynomial, combine and seperate --> reduce the dimensions. 
+
+3. Model Fitting and Tuning
+    (1)Fit the model (logit, SVM, Decision tree, LDA) --> Classification
+    (2)compute the scores
+    (3)model selection and Tuning
+
+4. Discussion & Conclusions
+    (1)Model explaination: display the results
+    (2)Advantages and disadvantages
+    (3)Provide some suggestions
+    (4)Discussion: improvement and adjustment
