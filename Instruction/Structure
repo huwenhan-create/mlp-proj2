@@ -6,12 +6,41 @@
     (1)Basic: missing value, abnormal values(optional)
     (2)Advanced: univariable analysis, Colinearity analysis, association study
     (3)Visualization: Distribution, relationship
-    (4)Feature: One-hot, polynomial, combine and seperate --> reduce the dimensions. 
+    (4)Feature: One-hot, polynomial, combine and seperate --> reduce the dimensions.
+
+{
+Function:
+    1. property_analysis(y): explore the properties of the target feature.
+    2. association_analysis(x,y): relationship between outcome of interest and the feature.
+    3. Information_Gain(x,y): Compute the Information gain using `gini`
+    4. data_transform(X): Do the fransformation
+    {
+        Structure:
+        1. drop_features
+        2. standardized_feature
+        3. Onehot or Label
+    }
+} 
+
+{
+    drop: 'year','month',...
+}
+
 
 3. Model Fitting and Tuning
     (1)Fit the model (logit, SVM, Decision tree, LDA) --> Classification
+    {
+        Model compare: Why we choose?
+        Model fit: What we choose?
+    }
     (2)compute the scores
+    {
+        Model evaluation: the performance of our model
+    }
     (3)model selection and Tuning
+    {
+        Model tunning: Gridsearchcv -> better model
+    }
 
 4. Discussion & Conclusions
     (1)Model explaination: display the results
